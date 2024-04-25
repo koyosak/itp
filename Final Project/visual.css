@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Optima',  sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: #051935;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+#navbar__logo {
+    background-color: azure;
+    background-image: linear-gradient(to top, rgb(177, 209, 237) 0%, rgb(246, 245, 250)  100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar__item {
+    height: 20px;
+}
+
+.navbar__links {
+    position: relative;
+    color:rgb(107, 131, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    text-decoration: none;
+    padding: 6px 20px;
+    height: 100%;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.navbar__links:hover {
+    color: rgb(138, 196, 220);
+}
+
+ .photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover
+}
+
+.info {
+    color: aliceblue;
+    background-color: #051935;
+    padding: 8rem 0;
+}
+
